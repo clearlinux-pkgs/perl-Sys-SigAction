@@ -4,7 +4,7 @@
 #
 Name     : perl-Sys-SigAction
 Version  : 0.23
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.23.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libsys-sigaction-perl/libsys-sigaction-perl_0.23-1.debian.tar.xz
@@ -78,7 +78,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Sys-SigAction
-cp %{_builddir}/Sys-SigAction-0.23/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Sys-SigAction/59fa8c2f00007f54e7e95e6ae265cd96b97613e8
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Sys-SigAction/59fa8c2f00007f54e7e95e6ae265cd96b97613e8
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -102,5 +102,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Sys/SigAction.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Sys/SigAction/Alarm.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Sys/SigAction.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Sys/SigAction/Alarm.pm
