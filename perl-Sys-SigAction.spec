@@ -4,7 +4,7 @@
 #
 Name     : perl-Sys-SigAction
 Version  : 0.23
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.23.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.23.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libsys-sigaction-perl/libsys-sigaction-perl_0.23-1.debian.tar.xz
@@ -102,5 +102,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Sys/SigAction.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Sys/SigAction/Alarm.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Sys/SigAction.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Sys/SigAction/Alarm.pm
