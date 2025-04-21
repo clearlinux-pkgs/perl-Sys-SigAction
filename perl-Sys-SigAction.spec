@@ -7,7 +7,7 @@
 #
 Name     : perl-Sys-SigAction
 Version  : 0.24
-Release  : 29
+Release  : 30
 URL      : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.24.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LB/LBAXTER/Sys-SigAction-0.24.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libsys-sigaction-perl/libsys-sigaction-perl_0.23-1.debian.tar.xz
